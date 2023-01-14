@@ -1,7 +1,7 @@
 package com.byd.user.helloworld;
 
 import static android.content.pm.PackageManager.PERMISSION_GRANTED;
-//import static android.hardware.bydauto.ac.BYDAutoAcDevice.getInstance;
+import static android.hardware.bydauto.ac.BYDAutoAcDevice.getInstance;
 
 import android.Manifest;
 import android.hardware.bydauto.ac.AbsBYDAutoAcListener;

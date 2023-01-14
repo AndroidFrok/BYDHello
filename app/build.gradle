@@ -10,12 +10,13 @@ android {
             storePassword 'android'
         }
     }
+    def android = 25
     buildToolsVersion "31.0.0"
-    compileSdkVersion 31
+    compileSdkVersion android
     defaultConfig {
         applicationId "com.byd.user.helloworld"
-        minSdkVersion 21
-        targetSdkVersion 31
+        minSdkVersion android
+        targetSdkVersion android
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
